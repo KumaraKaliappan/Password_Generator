@@ -12,7 +12,14 @@ body
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(120deg,red, orange, yellow);
+    background: linear-gradient(120deg,#014871,#d7ede2);
+}
+@media(max-width:767px)
+{
+h1
+{
+    font-size: 24px;
+}
 }
 .container
 {
